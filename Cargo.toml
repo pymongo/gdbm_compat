@@ -1,6 +1,6 @@
 [package]
 name = "gdbm_compat"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 authors = ["wuaoxiang <os.popen@gmail.com>"]
 description = "binding of gdbm_compat(/usr/lib/libgdbm_compat.so) single file key-value database"
