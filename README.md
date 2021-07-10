@@ -1,4 +1,4 @@
-binding of gdbm_compat single file key-value database
+binding of /usr/lib/libgdbm_compat.so single file key-value database
 
 ## examples
 
@@ -22,7 +22,6 @@ dbm_close(dbm_ptr);
 let mut key = *b"black\0";
 let key_datum = datum {
     dptr: key.as_mut_ptr().cast(),
-    // strlen exclude the nul terminator
     dsize: key.len() as i32 - 1,
 };
 let mut black = Color::new(0, 0, 0);
